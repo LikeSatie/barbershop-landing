@@ -38,11 +38,31 @@ html {
   list-style-type: none;
 }
 
+.nav-list-item.login {
+  padding: 2rem 0;
+  list-style-type: none;
+  color: #404040;
+}
+
+.nav-list-item.login svg {
+  color: #404040;
+}
+
 .nav-list-link {
   font-size: 1rem;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
+  transition: all 0.3s;
+}
+
+.nav-list-link:hover {
+  color: rgb(0, 195, 255);
+}
+
+.nav-list-link:focus {
+  color: rgb(0, 195, 255);
+  outline: none;
 }
 
 /* end of header */
@@ -180,6 +200,19 @@ html {
   cursor: pointer;
 }
 
+.news--expand:hover,
+.slider--back:hover,
+.slider--forward:hover {
+  color: rgb(0, 195, 255);
+}
+
+.news--expand:focus,
+.slider--back:focus,
+.slider--forward:focus {
+  color: rgb(0, 195, 255);
+  outline: none;
+}
+
 .gallery--slider {
 }
 
@@ -273,6 +306,17 @@ button {
   text-transform: uppercase;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
+  transition: all ease-in-out 0.3s;
+}
+
+.info--controls button:hover {
+  color: rgb(0, 195, 255);
+  cursor: pointer;
+}
+
+.info--controls button:focus {
+  color: rgb(0, 195, 255);
+  outline: none;
 }
 
 .contacts--form {
@@ -341,6 +385,17 @@ input[placeholder] {
 .form--group button {
   width: 100%;
   margin-top: 1.75rem;
+  transition: all ease-in-out 0.3s;
+}
+
+.form--group button:hover {
+  color: rgb(0, 195, 255);
+  cursor: pointer;
+}
+
+.form--group button:focus {
+  color: rgb(0, 195, 255);
+  outline: none;
 }
 
 /* end of contacts section */
@@ -348,6 +403,7 @@ input[placeholder] {
 /* start of footer section */
 
 .footer {
+  margin-top: 4rem;
   background-color: #000;
   background-image: url(../images/footer-background-clip.jpg);
 }
@@ -398,6 +454,18 @@ input[placeholder] {
   text-decoration: none;
   color: #fff;
   border-bottom: 1px solid #fff;
+  transition: all ease-in-out 0.3s;
+}
+
+.item--shop-map:hover {
+  color: rgb(0, 195, 255);
+  border-bottom-color: rgb(0, 195, 255);
+}
+
+.item--shop-map:focus {
+  color: rgb(0, 195, 255);
+  outline: none;
+  border-bottom-color: rgb(0, 195, 255);
 }
 
 p.item--social-header {
@@ -421,6 +489,14 @@ p.item--social-header {
   background-color: #000;
 }
 
+.item--social-links a:hover + .item--social-links a {
+  outline: rgb(0, 195, 255);
+}
+
+.item--social-links a:focus + .item--social-links a {
+  outline: rgb(0, 195, 255);
+}
+
 .item--social-links a svg {
   align-self: center;
 }
@@ -435,6 +511,17 @@ p.item--author {
   text-decoration: none;
   color: #fff;
   background-color: #000;
+  transition: all ease-in-out 0.3s;
+}
+
+.item--author-link:hover {
+  color: rgb(0, 195, 255);
+  outline: none;
+}
+
+.item--author-link:focus {
+  color: rgb(0, 195, 255);
+  outline: none;
 }
 
 /* end of footer section */
